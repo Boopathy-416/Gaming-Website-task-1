@@ -1,0 +1,15 @@
+
+.section{
+    position:relative;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+}
+
+
+
+*{
+    scroll-snap-align: start;
+}

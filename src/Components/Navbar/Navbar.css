@@ -1,0 +1,52 @@
+.icon{
+    color: rgb(26, 184, 163);
+    display: flex;
+    column-gap: 30px;
+    padding: 10px 30px;
+    list-style: none;
+    overflow-y: hidden;
+}
+
+.nov{
+    backdrop-filter: blur(100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    z-index: 1000;
+
+    
+    /*  
+    /* 
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+
+}
+.nav-item{
+ padding: 0px;
+ margin: 0px;
+}
+/* .offcanvas-body {
+    
+    padding: 10px;
+} */
+.nav-tem{
+    padding: 0px;
+    align-items: baseline;
+    
+}
+.side{
+    width: 370px;
+    height: 220px;
+     position: relative;
+     float: right;
+   
+     
+    /* z-index: 3; */
+}
+
+.color{
+    background-image: url('src/assets/1 (4).jpg');
+}
+
